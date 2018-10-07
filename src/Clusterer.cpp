@@ -116,7 +116,7 @@ void VisualizeResult(const Cloud::Ptr &centroids,
 
 
 int main(int argc, char *argv[]) {
-  ros::init(argc, argv, "clusterer_node");
+  ros::init(argc, argv, "clusterer");
   ros::NodeHandle nh;
   sub_velodyne_points = nh.subscribe("/velodyne_points", 1,
                                      &LaserCloudCallBack);

@@ -24,6 +24,9 @@ include_directories(
         ${catkin_INCLUDE_DIRS}
         ${PCL_INCLUDE_DIRS}
 )
+
+catkin_package()
+
 add_executable(${PROJECT_NAME}_exec
         src/Clusterer.cpp
         src/PclStuff.cpp)
