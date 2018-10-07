@@ -1,12 +1,12 @@
-deepcon-leo-clusterer
+# deepcon-leo-clusterer
 
 Link to the slide at conference (210MB): https://drive.google.com/open?id=1MstnXP4Jf-hl8-M1xZNRFOmkYmgQTmIw
 
-Dependencies:
+## Dependencies:
 * ROS Kinetic
 * PCL 1.8
 
-How to use:
+## How to use:
 I will assume you are new to ROS.
 
 
